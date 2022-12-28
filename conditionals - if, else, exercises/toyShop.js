@@ -2,7 +2,6 @@
 //If the number of the toys is 50 or bigger the client gets 25% discount. Out of the made money Petya has to pay 10% rent for the shop. 
 //Find out if the money she makes would be sufficient. 
 
-
 function toyShop(input) {
     let puzzle = 2.60;
     let doll = 3;
@@ -18,9 +17,7 @@ function toyShop(input) {
     let truckCount = Number(input[5]);
 
     let totalCount = puzzleCount + dollCount + bearCount + minionCount + truckCount;
-
-    let totalPrice = (puzzleCount * puzzle) + (dollCount * doll) + (bearCount * bear) + (minionCount * minion) + (truckCount * truck);
-    
+    let totalPrice = (puzzleCount * puzzle) + (dollCount * doll) + (bearCount * bear) + (minionCount * minion) + (truckCount * truck);  
     let discount = (totalPrice * 25) / 100;
 
     if (totalCount >= 50) {
@@ -30,15 +27,13 @@ function toyShop(input) {
     let rent = (totalPrice * 10) / 100;
     totalPrice -= rent;
 
-    let moneyLeft = Math.abs(totalPrice - excursionPrice);
-
     if (totalPrice >= excursionPrice) {
-        console.log(`Yes! ${moneyLeft.toFixed(2)} lv left.`)
+        console.log(`Yes! ${(totalPrice - excursionPrice).toFixed(2)} lv left.`)
     } else if (totalPrice <= excursionPrice) {
-        console.log(`Not enough money! ${moneyLeft.toFixed(2)} lv needed.`)
+        console.log(`Not enough money! ${(excursionPrice - totalPrice).toFixed(2)} lv needed.`)
     }
 
 }
 
-// toyShop(["320", "8", "2", "5", "5", "1"]);
-toyShop(["40.8","20","25","30","50","10"]);
+toyShop(["320", "8", "2", "5", "5", "1"]);
+// toyShop(["40.8","20","25","30","50","10"]);
