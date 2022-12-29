@@ -10,7 +10,7 @@ function bonusPoints(input) {
 
     if (startingPoints <= 100) {
         bonusPoints += 5;
-    } else if (startingPoints > 100 && startingPoints < 1000) {
+    } else if (startingPoints < 1000) {
         bonusPoints += (startingPoints * 0.20);
     } else if (startingPoints > 1000) {
         bonusPoints += (startingPoints * 0.10);
@@ -29,4 +29,4 @@ function bonusPoints(input) {
 // bonusPoints(["20"]);
 // bonusPoints(["175"]);
 // bonusPoints(["2703"]);
-// bonusPoints(["15875"]);
+bonusPoints(["15875"]);
