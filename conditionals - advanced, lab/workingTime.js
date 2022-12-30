@@ -23,6 +23,6 @@ function workingTime(input) {
 }
 
 
-workingTime(["19", "Friday"]);
+// workingTime(["19", "Friday"]);
 // workingTime(["11", "Monday"]);
 // workingTime(["11", "Sunday"]);

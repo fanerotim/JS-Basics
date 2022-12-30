@@ -26,9 +26,7 @@ function neighbourhoodShop(input) {
                     console.log(quantity * 1.60);
                     break;
             }
-    }
-
-    switch (city) {
+            break;
         case "Plovdiv":
             switch (product) {
                 case "coffee":
@@ -47,9 +45,7 @@ function neighbourhoodShop(input) {
                     console.log(quantity * 1.5);
                     break;
             }
-    }
-
-    switch (city) {
+            break;
         case "Varna":
             switch (product) {
                 case "coffee":
@@ -68,7 +64,7 @@ function neighbourhoodShop(input) {
                     console.log(quantity * 1.55);
                     break;
             }
-
+            break;
     }
 
 }
@@ -77,4 +73,3 @@ function neighbourhoodShop(input) {
 // neighbourhoodShop(["peanuts", "Plovdiv", "1"]);
 // neighbourhoodShop(["beer", "Sofia", "2"]);
 // neighbourhoodShop(["water", "Plovdiv", "2"]);
-neighbourhoodShop(["bananas", "Plovdiv", "2.23"]);
