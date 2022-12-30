@@ -24,4 +24,5 @@ function sexAndAge(input) {
 // sexAndAge(["12", "f"]);
 // sexAndAge(["17", "m"]);
 // sexAndAge(["25", "f"]);
-sexAndAge(["13.5", "m"]);
+// sexAndAge(["13.5", "m"]);
+sexAndAge(["26", "к"]);
