@@ -5,17 +5,18 @@ function animalType(input) {
     let command = input[0];
 
     switch(command) {
-        case "dog": {
-            console.log("mammal"); break;
-        }
+        case "dog": 
+            console.log("mammal"); 
+            break;
 
         case "crocodile":
         case "tortoise":
-        case "snake": {
-            console.log("reptile"); break;
-        }
+        case "snake":
+            console.log("reptile"); 
+            break;
         default:
-            console.log("unknown"); break;
+            console.log("unknown"); 
+            break;
         
 
     }
