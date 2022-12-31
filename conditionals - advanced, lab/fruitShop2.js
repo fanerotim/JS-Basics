@@ -36,7 +36,6 @@ function fruitShop(input) {
                 console.log((quantity * 3.85).toFixed(2)); 
                 break;
                 default: console.log("error");
-                break;
             } 
             break;
         case "Saturday":
@@ -64,18 +63,18 @@ function fruitShop(input) {
                     console.log((quantity * 4.20).toFixed(2));
                     break;
                 default: console.log("error");
-                break;
             }
         }
         break;
         default: console.log("error");
-        break;
-      
+        break;     
 }
 }
 
-// fruitShop(["apple", "Tuesday", "2"]);
+fruitShop(["apple", "Tuesday", "2"]);
 fruitShop(["banana", "Sunday", "3"]);
-// fruitShop(["kiwi", "Monday", "2.5"]);
-// fruitShop(["grapes", "Saturday", "0.5"]);
-// fruitShop(["pizza", "Workday", "0.5"]);
+fruitShop(["kiwi", "Monday", "2.5"]);
+fruitShop(["grapes", "Saturday", "0.5"]);
+fruitShop(["pizza", "Tuesday", "0.5"]);
+fruitShop(["pizza", "Sunday", "0.5"]);
+fruitShop(["pizza", "Workday", "0.5"]);
