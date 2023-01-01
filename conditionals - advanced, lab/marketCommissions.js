@@ -76,7 +76,7 @@ function marketCommission(input) {
           
 }
 
-marketCommission((["Sofia", "1500"]));
+marketCommission(["Sofia", "1500"]);
 marketCommission(["Plovdiv", "499.99"]);
 marketCommission(["Varna", "3874.50"]);
 marketCommission(["Varna", "-50"]);
