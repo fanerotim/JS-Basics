@@ -42,7 +42,7 @@ function fruitShop(input) {
             if (fruit == "banana" || fruit == "apple" || fruit == "orange" || fruit == "grapefruit" || fruit == "kiwi" || fruit == "pineapple" || fruit == "grapes") {
                 console.log(sum.toFixed(2));
             } else {
-                console.log("error")
+                console.log("error");
             } break;
             
 
@@ -85,9 +85,9 @@ function fruitShop(input) {
 }
 
 fruitShop(["apple", "Tuesday", "2"]);
-// fruitShop(["banana", "Sunday", "3"]);
+fruitShop(["banana", "Sunday", "3"]);
 fruitShop(["kiwi", "Monday", "2.5"]);
-// fruitShop(["grapes", "Saturday", "0.5"]);
-// fruitShop(["pizza", "Tuesday", "0.5"]);
-// fruitShop(["pizza", "Sunday", "0.5"]);
-// fruitShop(["pizza", "Workday", "0.5"]);
+fruitShop(["grapes", "Saturday", "0.5"]);
+fruitShop(["pizza", "Tuesday", "0.5"]);
+fruitShop(["pizza", "Sunday", "0.5"]);
+fruitShop(["pizza", "Workday", "0.5"]);
