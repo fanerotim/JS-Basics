@@ -49,20 +49,12 @@ function summerDress(input) {
             break;
 
         case "Evening":
-            if (degrees >= 10 && degrees <= 18) {
                 outfit = "Shirt";
                 shoes = "Moccasins";
-            } else if (degrees > 18 && degrees <= 24) {
-                outfit = "Shirt";
-                shoes = "Moccasins";
-            } else {
-                outfit = "Shirt";
-                shoes = "Moccasins";
-            }
             break;
     }
     console.log(`It's ${degrees} degrees, get your ${outfit} and ${shoes}.`)
 }
 
 // summerDress(["16", "Morning"]);
-summerDress(["22", "Afternoon"]);
+summerDress(["28", "Evening"]);
