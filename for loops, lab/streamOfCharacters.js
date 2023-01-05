@@ -8,5 +8,5 @@ function streamOfCharacters(input) {
     }
 }
 
-// streamOfCharacters(["softuni"]);
+streamOfCharacters(["softuni"]);
 // streamOfCharacters(["ice cream"]);
