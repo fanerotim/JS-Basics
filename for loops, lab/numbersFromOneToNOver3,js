@@ -1,0 +1,13 @@
+//Write a function that receives a number 'n' and prints out every 3rd number from 1 to n.
+
+function OneToNOverThree(input) {
+    let n = Number(input[0]);
+
+    for (let i = 1; i <= n; i += 3) {
+        console.log(i);
+    }
+}
+
+// OneToNOverThree(["10"]);
+// OneToNOverThree(["7"]);
+OneToNOverThree(["15"]);
