@@ -17,7 +17,7 @@ function smartLily(input) {
 
     for (let i = 1; i <= age; i++) {
         if (i % 2 === 0) {
-            buff += 10;
+            bonusMoney += 10;
             money += bonusMoney - 1;
         } else {
             toysReceived += 1; 
