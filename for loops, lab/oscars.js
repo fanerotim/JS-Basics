@@ -3,7 +3,9 @@
 // each judge's name * the points that they would give divided by 2. 
 //If the result exceeds 1250.5 the programme must stop and print out that certain actor has been a nominated. 
 // We receive - actor name, points from the academy, number of judges
-//Then we get - 'n' number of judges and 'n' number of scores tha the judges give. 
+//Then we get - 'n' number of judges and 'n' number of scores that the judges give. 
+// The software must print out if the actor has been given more than 1250.5 points or not.
+//Result must be formated to 1 decimal point.
 
 function oscars(input) {
     let actorName = input[0];
