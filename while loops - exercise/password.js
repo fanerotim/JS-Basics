@@ -4,9 +4,9 @@
 function password(input) {
     let index = 0;
 
-    let password = input[1];
+    let password = input[index];
     index++
-    let username = input[0];
+    let username = input[index];
     index++
 
     let counter = input[index];
