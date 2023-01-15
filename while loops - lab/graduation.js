@@ -1,3 +1,11 @@
+//Write a programme which calculates the average grade of a student's school years (grade 1 to 12). 
+//First argument would provide us with the name of the student and then on each new line we'd be receiving their yearly grades. 
+//The student goes in next class if his yearly grade is 4 or higher. If the student fails more than one time, he is excluded from school and the programme ends
+//by printing out which class the student was excluded at. 
+//If the student graduates successfully we need to print out "{student's name} graduated. Average grade: {average grade}"
+//Else, we print out "{student's name} has been excluded at {grade/class} grade"
+//All grades need to be rounded to two decimal points
+
 function graduation(input) {
     let index = 0;
 
