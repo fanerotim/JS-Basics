@@ -15,6 +15,7 @@ function areaOfFigures(input) {
         console.log((Math.PI * Math.pow(a, 2)).toFixed(3))
     } else {
         console.log(((a * b) / 2).toFixed(3));
+        
     }
 }
 
