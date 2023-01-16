@@ -31,7 +31,7 @@ function trip(input) {
                 budget = budget * 0.70;
                 break;
         }
-    } else if (budget > 100 && budget <= 1000) {
+    } else if (budget <= 1000) {
         country = "Balkans";
         switch(season) {
             case "summer":
