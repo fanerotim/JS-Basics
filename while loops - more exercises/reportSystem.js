@@ -1,3 +1,18 @@
+//Charity event the payments are always made in the following order: cash, card, cash, card etc.
+//If a product costs more than 100lv, it cannot be paid for in cash.
+//If a product costs less than 10lv, it cannot be paid for in card.
+//The programme ends either after we receive command "End" or after the expected funds are collected.
+//Input: 1.The sum of money, which we expect to collect. 2. 'n' number of prices of the items that would be purchased or the command "End"
+//The programme must print out the following:
+//For each successful transaction: "Product sold!"
+//Each unsuccessful transaction: "Error in transaction!"
+//If the sum of all purchased items exceeds the expected sum the programme needs to end and print out:
+//o	"Average CS: {average payment in cash per person}"
+//o	"Average CC: {average payment in card per person}" 
+//The payments must be rounded to two decimal points
+//If we receive the command end, we need to print out:
+//o	"Failed to collect required money for charity."
+
 function reportSystem(input) {
     let index = 0;
 
