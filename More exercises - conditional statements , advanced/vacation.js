@@ -1,3 +1,23 @@
+//Write a function, which depending on a certain budget and season calculates the price, location and type of stay of a vacataion.
+//The seasons are "Summer" and "Winter". Locations are "Alaska" and "Morocco". Types of stay are - "Hotel", "Hut" and "Camp".
+// •	Budget less than 1000
+// o	Stay is "Camp"
+// o	Depending on the season, location would be one of the following and its cost would be: 
+// 	Summer - Alaska - 65% of budget 
+// 	Winter - Morroco - 45% of budget 
+// •	If budget is greater than 1000 and less than 3000
+// o	Stay is "Hut"
+// o	Depending on the season, location would be one of the following and its cost would be:
+// 	Summer - Alaska - 80% of the budget 
+// 	Winter - Morroco - 60% of the budget
+// •	If budget is greater than 3000
+// o	Stay is "Hotel"
+// o	Depending on the season, location would be one of the following and its cost would be 90% of budget
+// 	Summer - Alaska 
+// 	Winter - Morroco
+//Input: 1. budget; 2.Season;
+// Output shuld be "{location} – {type of stay} – {cost}" - rounded to two decimal points.
+
 function vacation(input) {
     let budget = Number(input[0]);
     let season = input[1];
