@@ -3,10 +3,10 @@
 //Write a programme which calculates how much wine is possible to be produced and if that quantity is enough. If it's enough, the remaining wine is being devided equally between the employees on the vineyard. 
 //Input: 1.Square meters vineyard; 2.Number of grapes for 1sqm; 3.Required litres of wine; 4.Number of employees;
 // Output: If the produced wine is less than the required:
-//“It will be a tough winter! More {insufficient wine} liters wine needed.” - result must be rounded to the lowest number
+//“It will be a tough winter! More {insufficient wine} liters wine needed.” - result must be rounded to the lower whole number
 // If the produced wine e as much as more than the requirement:
-//“Good harvest this year! Total wine: {total litres} liters.” - result must be rounded to the lowest number
-//“{Lef wine} liters left -> {wine for one employee} liters per person.” - result must be rounded to the higher number
+//“Good harvest this year! Total wine: {total litres} liters.” - result must be rounded to the lower whole number
+//“{Lef wine} liters left -> {wine for one employee} liters per person.” - result must be rounded to the bigger whole number
 
 function produce(input) {
     let vineyardSpace = Number(input[0]);

@@ -3,9 +3,9 @@
 //for the time when Marina is gone, and if the food she would leave them is sufficient. Each pet eats a certain amount of food per day.
 //Input: 1.Number of days; 2.Left food in kg; 3.Food for the dog per day in kg; 4.Food for the cat per day in kg. 5;Food for the turle per day in kg;
 // Output: If the left food is sufficient:
-//"{food left} kilos of food left." - result must be rounded to the lowest number
+//"{food left} kilos of food left." - result must be rounded to the lower whole number
 //If the food is insufficient: 
-//“{insufficient amount of food} more kilos of food are needed.” - rsult must be rounded to the highest number
+//“{insufficient amount of food} more kilos of food are needed.” - rsult must be rounded to the bigger whole number
 
 function pets(input) {
     let daysCount = Number(input[0]);
