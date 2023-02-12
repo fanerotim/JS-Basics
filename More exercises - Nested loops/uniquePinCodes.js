@@ -33,44 +33,44 @@ function uniquePinCodes(input) {
                 continue;
             }
 
-                //i represents the numbers in the interval (2-7)
-                for (let i = intervalStart; i <= intervalEnd; i++) {
-                    if (secondDigit % i === 0) {
-                        counter++;
-                    }
-
-                    if (i === intervalEnd) {
-                        if (counter === 1) {
-                            numTwo = secondDigit;  
-                        } else {
-                            isEnd = true;
-                            continue;
-                        }
-                    }
+            //i represents the numbers in the interval (2-7)
+            for (let i = intervalStart; i <= intervalEnd; i++) {
+                if (secondDigit % i === 0) {
+                    counter++;
                 }
 
-                if (isEnd === true) {
-                    continue;
+                if (i === intervalEnd) {
+                    if (counter === 1) {
+                        numTwo = secondDigit;
+                    } else {
+                        isEnd = true;
+                        continue;
+                    }
                 }
-                
-            for (let thirdDigit = 1; thirdDigit <= thirdNum; thirdDigit++) {
-                if (thirdDigit % 2 === 0) {
-                    numThree = thirdDigit; 
-                    
-            } else {
+            }
+
+            if (isEnd === true) {
                 continue;
             }
-            console.log(`${numOne} ${numTwo} ${numThree}`)
-        }  
+
+            for (let thirdDigit = 1; thirdDigit <= thirdNum; thirdDigit++) {
+                if (thirdDigit % 2 === 0) {
+                    numThree = thirdDigit;
+
+                } else {
+                    continue;
+                }
+                console.log(`${numOne} ${numTwo} ${numThree}`)
+            }
+        }
     }
-}   
 }
 
 uniquePinCodes([
     "3",
     "100",
     "5"
-    ])
+])
 
 // uniquePinCodes([
 //     "8",
